@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Zain Ansari | ZCodeDev</title>
+  <desc id="desc">A dark aurora-inspired developer profile banner with a glowing abstract orbital network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/><stop offset=".52" stop-color="#111B32"/><stop offset="1" stop-color="#17132D"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop stop-color="#22D3EE" stop-opacity=".34"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop stop-color="#A78BFA" stop-opacity=".30"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#8CA3C7" stroke-opacity=".09" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="390" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="390" rx="26" fill="url(#grid)"/>
+  <circle cx="930" cy="65" r="250" fill="url(#glowA)" filter="url(#blur)">
+    <animate attributeName="cx" values="900;980;900" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1080" cy="330" r="260" fill="url(#glowB)" filter="url(#blur)">
+    <animate attributeName="cy" values="330;260;330" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  <g opacity=".55" fill="none" stroke="url(#line)" stroke-width="1.2">
+    <path d="M790 70C900 10 1010 20 1110 110S1130 280 1010 325 810 300 820 190 970 70 1080 130" stroke-dasharray="5 9"/>
+    <path d="M840 20C970 95 1040 190 1160 210M810 300C930 230 1010 190 1180 55" opacity=".55"/>
+  </g>
+  <g fill="#C4B5FD">
+    <circle cx="820" cy="190" r="3"><animate attributeName="r" values="2;5;2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1110" cy="110" r="4"><animate attributeName="r" values="3;6;3" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="325" r="3"><animate attributeName="r" values="2;5;2" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="130" r="3"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="76" y="78" fill="#8CA3C7" font-size="15" letter-spacing="5" font-weight="600">ZCODEDEV  /  DEVELOPER PROFILE</text>
+    <text x="72" y="178" fill="#F8FAFC" font-size="68" font-weight="800" letter-spacing="-2">ZAIN ANSARI</text>
+    <rect x="76" y="205" width="112" height="4" rx="2" fill="url(#line)"/>
+    <text x="76" y="252" fill="#C7D2FE" font-size="25" font-weight="600">Building useful digital products.</text>
+    <text x="76" y="294" fill="#9FB0C9" font-size="17">Full-Stack Development  •  Flutter  •  AI &amp; Automation</text>
+    <g transform="translate(76 333)" font-size="12" font-weight="700" letter-spacing="2">
+      <text fill="#67E8F9">DESIGN</text><text x="85" fill="#64748B">/</text><text x="105" fill="#A78BFA">ENGINEER</text><text x="220" fill="#64748B">/</text><text x="240" fill="#F0ABFC">SHIP</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="388" rx="25" fill="none" stroke="#A5B4FC" stroke-opacity=".24"/>
+</svg>
